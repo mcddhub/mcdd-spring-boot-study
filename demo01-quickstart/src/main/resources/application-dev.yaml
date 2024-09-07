@@ -1,0 +1,33 @@
+server:
+  port: 8081
+mcdd:
+  id: 39
+  name: 抹茶旦旦 39
+  comments:
+    - 吃俺老孙一棒
+    - 哇好多人啊
+  mcdds:
+    1:
+      name: 皇上驾到
+      imgUrl: https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202409062025304.png
+    2:
+      name: 龙颜大悦
+      imgUrl: https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202409062025306.png
+    3:
+      name: 筋斗云
+      imgUrl: https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202409062025308.png
+    4:
+      name: 望
+      imgUrl: https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202409062025305.png
+    5:
+      name: 晕
+      imgUrl: https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202409062025307.png
+    6:
+      name: 我
+      imgUrl: https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202409062025303.png
+    7:
+      name: 打残
+      imgUrl: https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202409062025309.png
+    8:
+      name: 红温
+      imgUrl: https://mcdd-dev-1311841992.cos.ap-beijing.myqcloud.com/assets/202409062025302.png
