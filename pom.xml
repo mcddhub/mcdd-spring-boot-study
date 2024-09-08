@@ -6,7 +6,7 @@
     <groupId>com.mcddhub</groupId>
     <artifactId>mcdd-spring-boot-study</artifactId>
     <version>1.0.0</version>
-    <name>spring-study</name>
+    <name>mcdd-spring-boot-study</name>
     <description>Spring Boot study project by maven</description>
 
     <packaging>pom</packaging>
