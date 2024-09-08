@@ -8,8 +8,11 @@
     <version>1.0.0</version>
     <name>mcdd-spring-boot-study</name>
     <description>Spring Boot study project by maven</description>
-
     <packaging>pom</packaging>
+
+    <modules>
+        <module>template01-init</module>
+    </modules>
 
     <url>https://github.com/mcddhub/mcdd-spring-boot-study</url>
     <licenses>

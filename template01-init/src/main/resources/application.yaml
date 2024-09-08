@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: template01-init
+  profiles:
+    active: dev
