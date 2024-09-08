@@ -12,6 +12,7 @@
 
     <modules>
         <module>template01-init</module>
+        <module>demo01-quickstart</module>
     </modules>
 
     <url>https://github.com/mcddhub/mcdd-spring-boot-study</url>
