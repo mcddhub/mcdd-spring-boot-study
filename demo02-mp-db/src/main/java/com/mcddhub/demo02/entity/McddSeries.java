@@ -19,4 +19,8 @@ public class McddSeries {
      * 系列名称
      */
     private String name;
+    /**
+     * 描述
+     */
+    private String description;
 }

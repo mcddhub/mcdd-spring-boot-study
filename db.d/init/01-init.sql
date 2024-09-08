@@ -9,6 +9,7 @@ CREATE TABLE tb_mcdd_series
 (
     id   INT          NOT NULL AUTO_INCREMENT COMMENT '系列 id',
     name VARCHAR(255) NOT NULL COMMENT '系列名称',
+    description VARCHAR(255) NOT NULL COMMENT '描述',
     PRIMARY KEY (id)
 );
 
@@ -17,7 +18,7 @@ CREATE TABLE tb_mcdd
     id        INT          NOT NULL AUTO_INCREMENT COMMENT '抹茶旦旦 id',
     series_id INT          NOT NULL COMMENT '系列 id',
     name      VARCHAR(255) NOT NULL COMMENT '名称',
-    img_rul    VARCHAR(255) NOT NULL COMMENT '图片地址',
+    img_url    VARCHAR(255) NOT NULL COMMENT '图片地址',
     PRIMARY KEY (id),
     FOREIGN KEY (series_id) REFERENCES tb_mcdd_series (id) ON DELETE CASCADE
 );
