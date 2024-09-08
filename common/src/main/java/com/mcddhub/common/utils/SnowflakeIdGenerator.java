@@ -4,7 +4,7 @@ package com.mcddhub.common.utils;
  * 雪花算法 ID 生成器
  *
  * @version 1.0.0
- * @author: mcdd
+ * @author: coder-mcdd
  * @date: 2024/3/27 14:08
  */
 public class SnowflakeIdGenerator {

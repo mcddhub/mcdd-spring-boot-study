@@ -4,7 +4,7 @@ package com.mcddhub.common.utils;
  * Const
  *
  * @version 1.0.0
- * @author: mcdd
+ * @author: coder-mcdd
  * @date: 2024/8/11 23:14
  */
 public final class Const {

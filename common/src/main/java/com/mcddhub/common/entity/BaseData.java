@@ -12,7 +12,7 @@ import java.util.function.Consumer;
  * BaseData
  *
  * @version 1.0.0
- * @author: mcdd
+ * @author: coder-mcdd
  * @date: 2024/8/20 23:59
  */
 public interface BaseData {
