@@ -13,6 +13,7 @@
     <modules>
         <module>template01-init</module>
         <module>demo01-quickstart</module>
+        <module>demo02-mp-db</module>
     </modules>
 
     <url>https://github.com/mcddhub/mcdd-spring-boot-study</url>
@@ -47,8 +48,8 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>3.3.3</spring-boot.version>
-        <mybatis-plus-starter.version>3.5.7</mybatis-plus-starter.version>
+        <spring-boot.version>3.1.2</spring-boot.version>
+        <mybatis-plus-starter.version>3.5.3.1</mybatis-plus-starter.version>
         <common.version>1.0.0</common.version>
         <mysql.version>8.3.0</mysql.version>
         <lombok.version>1.18.34</lombok.version>
