@@ -1,4 +1,4 @@
-package jzxy.mcdd.template01;
+package com.mcddhub.demo02;
 
 import cn.hutool.extra.spring.SpringUtil;
 import org.junit.jupiter.api.Test;
@@ -11,7 +11,7 @@ import java.util.Arrays;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class Demo01ApplicationTest {
+class Demo02ApplicationTest {
 
     @Autowired
     ApplicationContext context;
