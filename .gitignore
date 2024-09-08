@@ -34,3 +34,6 @@ build/
 .vscode/
 /.env
 /docker/store/
+/frontend/pnpm-lock.yaml
+/frontend/node_modules/
+/frontend/dist/

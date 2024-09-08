@@ -20,6 +20,7 @@ import java.util.Objects;
  */
 @Slf4j
 @RestController
+@CrossOrigin
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/mcdd/series")
 public class McddSeriesController {
