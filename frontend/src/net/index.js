@@ -12,9 +12,9 @@ const defaultFailure = (message, status, url) => {
   ElMessage.warning(message)
 }
 
-function internalPost(url, data, headers, success, failure, error = defaultError) {
+function internalPost(url, data, success, failure, error = defaultError) {
   axios
-    .post(url, data, { headers: headers })
+    .post(url, data)
     .then(({ data }) => {
       if (data.code === 200) success(data.data)
       else failure(data.message, data.code, url)
@@ -22,9 +22,9 @@ function internalPost(url, data, headers, success, failure, error = defaultError
     .catch((err) => error(err))
 }
 
-function internalGet(url, headers, success, failure, error = defaultError) {
+function internalGet(url, success, failure, error = defaultError) {
   axios
-    .get(url, { headers: headers })
+    .get(url)
     .then(({ data }) => {
       if (data.code === 200) success(data.data)
       else failure(data.message, data.code, url)
@@ -33,11 +33,11 @@ function internalGet(url, headers, success, failure, error = defaultError) {
 }
 
 function post(url, data, success, failure = defaultFailure) {
-  internalPost(url, data, accessHeader(), success, failure)
+  internalPost(url, data, success, failure)
 }
 
 function get(url, success, failure = defaultFailure) {
-  internalGet(url, accessHeader(), success, failure)
+  internalGet(url, success, failure)
 }
 
 
