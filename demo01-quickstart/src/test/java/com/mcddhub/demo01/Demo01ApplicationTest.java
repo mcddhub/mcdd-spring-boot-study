@@ -1,4 +1,4 @@
-package jzxy.mcdd.template01;
+package com.mcddhub.demo01;
 
 import cn.hutool.extra.spring.SpringUtil;
 import org.junit.jupiter.api.Test;
