@@ -1,0 +1,55 @@
+name: 功能请求
+description: 建议一个新功能
+title: "[Feature]: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        在提交"功能请求"之前，请确保没有现有的功能与您请求的相同，并且已经通过[讨论区](https://github.com/mcddhub/mcdd-spring-boot-study/discussions)或Slack与团队讨论过。如果是这样，请提供以下信息：
+  - type: dropdown
+    id: module
+    attributes:
+      label: 模块
+      description: 这个功能是否与任何现有模块相关？
+      options:
+        - 核心
+        - 新模块
+        - ...
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题
+      description: 这个功能是否与某个问题相关？请描述一下。
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: 解决方案
+      description: 对于这个功能，您提议的解决方案是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: benefit
+    attributes:
+      label: 好处
+      description: 将这个功能添加到项目中有什么好处？
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 替代方案
+      description: 是否有其他替代方案？请描述一下。
+    validations:
+      required: true
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: 您是否愿意帮助贡献这个功能？
+      options:
+        - '是'
+        - '否'
+    validations:
+      required: true

@@ -1,0 +1,26 @@
+name: 功能增强
+description: 提出功能增强建议
+title: "[Enhancement]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        在提交`功能增强`建议之前，请确保没有与您请求相同的现有增强建议，并且已经通过[讨论区](https://github.com/mcddhub/mcdd-spring-boot-study/discussions)或Slack与团队讨论过。如果已经确认，请提供以下信息：
+  - type: dropdown
+    id: module
+    attributes:
+      label: 模块
+      description: 这个功能增强建议适用于哪个模块？
+      options:
+        - module01
+        - 核心模块
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议内容
+      description: 应该改进什么？当前实现有哪些限制，这个建议如何解决这些问题？
+    validations:
+      required: true
