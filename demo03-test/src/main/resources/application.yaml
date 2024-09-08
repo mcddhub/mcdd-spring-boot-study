@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: demo03-test
+  profiles:
+    active: dev

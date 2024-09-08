@@ -14,6 +14,7 @@
         <module>template01-init</module>
         <module>demo01-quickstart</module>
         <module>demo02-mp-db</module>
+        <module>demo03-test</module>
     </modules>
 
     <url>https://github.com/mcddhub/mcdd-spring-boot-study</url>
