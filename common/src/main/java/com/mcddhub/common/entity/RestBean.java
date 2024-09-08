@@ -10,7 +10,7 @@ import java.util.Optional;
  * RestBean
  *
  * @version 1.0.0
- * @author: mcdd
+ * @author: coder-mcdd
  * @date: 2024/8/20 13:11
  */
 public record RestBean<T> (long id, int code, T data, String message) {
