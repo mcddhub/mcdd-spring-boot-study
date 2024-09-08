@@ -45,18 +45,18 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>3.3.3</spring-boot.version>
         <mybatis-plus-starter.version>3.5.7</mybatis-plus-starter.version>
-<!--        <common.version>1.0.0</common.version>-->
+        <common.version>1.0.0</common.version>
         <mysql.version>8.3.0</mysql.version>
         <lombok.version>1.18.34</lombok.version>
     </properties>
 
     <dependencies>
-<!--        &lt;!&ndash; common &ndash;&gt;
+        <!-- common -->
         <dependency>
             <groupId>jzxy.mcdd</groupId>
             <artifactId>common</artifactId>
             <version>${common.version}</version>
-        </dependency>-->
+        </dependency>
         <!-- Lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
